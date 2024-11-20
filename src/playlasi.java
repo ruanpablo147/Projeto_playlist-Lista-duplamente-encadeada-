@@ -132,7 +132,7 @@ public class playlasi<T> {
         if (posicao <= 0 || posicao > tamanholista())
             throw new Exception("Posição inválida");
 
-        noduplo<T> aux = inicio;
+        noduplo<T> aux  = inicio;
         int contador = 0;
 
 
